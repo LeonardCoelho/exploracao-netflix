@@ -1,52 +1,91 @@
 # 🎬 Análise Exploratória - Netflix Movies and TV Shows
 
-Este projeto consiste em uma **análise exploratória de dados (EDA)** sobre filmes e séries disponíveis na plataforma **Netflix**, utilizando Python e bibliotecas de visualização.
-
-O objetivo é entender o comportamento do catálogo da Netflix ao longo do tempo, extraindo insights relevantes sobre gêneros, países, classificações indicativas e evolução da produção de conteúdo.
+Este projeto realiza uma análise exploratória de dados (EDA) com Python, usando um dataset da Netflix disponível no Kaggle. O objetivo é extrair insights sobre o catálogo da plataforma com foco em tipos de conteúdo, gêneros, países, classificações etárias e evolução ao longo do tempo.
 
 ---
 
-## 🧠 Objetivos
+## 📦 Dataset
 
-- Quantidade de filmes e séries disponíveis por ano
-- Gêneros mais frequentes na plataforma
-- Evolução da produção de conteúdo original Netflix
-- Duração média de filmes e séries
-- Principais países produtores
-- Distribuição por classificação indicativa
+- **Fonte:** [Kaggle - Netflix Movies and TV Shows](https://www.kaggle.com/datasets/anandshaw2001/netflix-movies-and-tv-shows)
+- Principais colunas:
+  - `type`, `title`, `country`, `release_year`, `rating`, `duration`, `listed_in`, etc.
 
 ---
 
-## 🧰 Tecnologias e bibliotecas
+## 🛠️ Tecnologias e bibliotecas
 
-- Python 3.10
+- Python 3.x
+- Jupyter Notebook
 - Pandas
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
 
 ---
 
-## 📊 Dataset
+## 📌 Objetivos da Análise
 
-- Fonte: [Kaggle - Netflix Movies and TV Shows](https://www.kaggle.com/datasets/anandshaw2001/netflix-movies-and-tv-shows)
-- Contém mais de 8.800 títulos com informações como:
-  - Tipo (Filme ou Série)
-  - Data de lançamento
-  - Gênero
-  - País de origem
-  - Classificação
-  - Elenco, diretor, duração etc.
+- Identificar tendências de lançamentos ao longo dos anos
+- Analisar a distribuição entre filmes e séries
+- Ver os países mais ativos em produções
+- Avaliar os gêneros e classificações mais comuns
+- Explorar padrões de duração de filmes/séries
 
 ---
 
-## 📂 Estrutura do projeto
+## 🧱 Estrutura do Projeto
+
+```
+exploracao-netflix/
+├── data/             # Dataset original (CSV)
+├── images/           # Gráficos gerados (opcional)
+├── src/              # Código principal
+│   └── Notebook.ipynb
+├── README.md
+└── requirements.txt  # Dependências
+```
+
+---
+
+## ▶️ Como executar
+
+1. Clone o repositório:
 
 ```bash
-📁 exploracao-netflix
-├── 📁 data/            # Dataset original do Kaggle
-├── 📁 images/          # Gráficos gerados na análise
-├── 📁 src/             # Notebook principal
-│   └── Notebook.ipynb
-├── requirements.txt
-└── README.md
+git clone https://github.com/LeonardCoelho/exploracao-netflix.git
+cd exploracao-netflix
+```
+
+2. Instale os pacotes necessários:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Rode o notebook:
+
+```bash
+jupyter notebook src/Notebook.ipynb
+```
+
+---
+
+## 📊 Principais Insights
+
+> ✍️ Adicione aqui um resumo dos achados depois da análise.
+
+- Crescimento constante até 2019 nos lançamentos da Netflix.
+- Predominância de filmes sobre séries.
+- EUA e Índia lideram em volume de produções.
+- Classificações indicativas mais frequentes: TV-MA, TV-14 e TV-PG.
+- Drama e comédia aparecem como gêneros dominantes.
+
+---
+
+## 📬 Contato
+
+**Leonardo Coelho**  
+[LinkedIn](https://www.linkedin.com/in/leonardocoelho/) | [E-mail](mailto:seuemail@email.com)
+
+---
+
+> Projeto desenvolvido para fins educacionais e portfólio de análise de dados.
