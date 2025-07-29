@@ -14,7 +14,7 @@ Este projeto realiza uma análise exploratória de dados (EDA) com Python, usand
 
 ## 🛠️ Tecnologias e bibliotecas
 
-- Python 3.x
+- Python
 - Jupyter Notebook
 - Pandas
 - Matplotlib
@@ -71,8 +71,6 @@ jupyter notebook src/Notebook.ipynb
 
 ## 📊 Principais Insights
 
-> ✍️ Adicione aqui um resumo dos achados depois da análise.
-
 - Crescimento constante até 2019 nos lançamentos da Netflix.
 - Predominância de filmes sobre séries.
 - EUA e Índia lideram em volume de produções.
@@ -84,7 +82,7 @@ jupyter notebook src/Notebook.ipynb
 ## 📬 Contato
 
 **Leonardo Coelho**  
-[LinkedIn](https://www.linkedin.com/in/leonardocoelho/) | [E-mail](mailto:seuemail@email.com)
+[LinkedIn](https://www.linkedin.com/in/leonardocoelho/) | [E-mail](mailto:lnrds.coelho@gmail.com)
 
 ---
 
